@@ -9,7 +9,7 @@ package jour1.job04;
  * @author fel
  */
 public class CompteBancaire {
-    double soldeActuel;
+    protected double soldeActuel = 0;
     
     public static void main(String[] args) {
         CompteBancaire compte = new CompteBancaire();
