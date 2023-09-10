@@ -22,9 +22,8 @@ public class ListeEntiersExercice {
         int sommePairs = listeEntiersExercice.sommeListe(listePairs);
 
         System.out.println(sommePairs);
-
     }
-    
+
     public ArrayList<Integer> creerListe(String[] args) {
         ArrayList<Integer> listeEntiers = new ArrayList<Integer>();
 
@@ -57,5 +56,5 @@ public class ListeEntiersExercice {
         }
 
         return result;
-    }    
+    }
 }
